@@ -14,4 +14,6 @@ var util = require('util'),
  *
  * @return Number
  */
-Class.prototype.methodName = function(){}
+TestPrototype.prototype.method = function(){
+   console.log('test');
+}
