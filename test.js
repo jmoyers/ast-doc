@@ -17,3 +17,12 @@ var util = require('util'),
 TestPrototype.prototype.method = function(){
    console.log('test');
 }
+
+TestPrototype2.prototype = {
+   /**
+    * A method for ruling the world
+    *
+    * @return void
+    */
+   method: function(){}
+}
