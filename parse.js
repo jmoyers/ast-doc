@@ -181,7 +181,6 @@ var nodes = nc(ast).select(function(node){
    var r = false;
 
    if (node[3][0].name === 'object') {
-      console.log(util.inspect(node, false, 100));
       r = this.properties(node[3]);   
    } else {
       var comment = node[0].start.comments_before[0];
